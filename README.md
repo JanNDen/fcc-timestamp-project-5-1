@@ -1,2 +1,2 @@
-# fcc-timestamp-project-5-1
-Timestamp project for module APIs and Microservices from freeCodeCamp.
+
+# [Timestamp Microservice](https://www.freecodecamp.org/learn/apis-and-microservices/apis-and-microservices-projects/timestamp-microservice)
