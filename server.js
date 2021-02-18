@@ -22,10 +22,11 @@ app.get("/", function (req, res) {
   res.sendFile(__dirname + '/views/index.html');
 });
 
+/********** <JANNDEN> ***********/
 app.get("/api/timestamp/", (req, res) => {
   res.json({ unix: Date.now(), utc: Date() });
 });
-// Unfortunately, the version using MOMENT doesn't get accepted by FCC
+// Unfortunately, the version using MOMENT isn't accepted by FCC automatic checks
 // app.get("/api/timestamp/:uriDate", function (req, res) {
 //   let uriDate = req.params.uriDate;
 //   if(uriDate == "") {
@@ -57,7 +58,7 @@ app.get("/api/timestamp/:uriDate", function (req, res) {
     }
   }
 });
-
+/********** </JANNDEN> ***********/
 
 // listen for requests :)
 var listener = app.listen(process.env.PORT, function () {
